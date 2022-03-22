@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url("./img/image1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+h1,
+h2,
+h4,
+h5,
+li {
+  font-family: "Changa One", cursive;
+  color: #425a37;
+}
+
+h3 {
+  font-family: "Oxygen", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 6% 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+  color: #425a37;
+}
+
+#title,
+#tagline {
+  width: 80%;
+  margin: 5% 10%;
+  text-align: center;
+}
+
+#tagline {
+  color: white;
+}
+
+span {
+  color: #54d617;
+}
+
+#about-section > h2,
+#about-section > p,
+#work-section > h2,
+#work-section > p {
+  padding: 5%;
+  margin: 0;
+}
+
+#work-section {
+  background-color: #425a37;
+  height: 200px;
+}
+
+#work-section > h2 {
+  color: white;
+}

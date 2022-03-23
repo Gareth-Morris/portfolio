@@ -1,19 +1,21 @@
 body {
   margin: 0;
+  height: 100%;
 }
 
 header {
-  background-image: url("./img/image1.jpeg");
-  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("./img/image1.jpeg");
+  background-position: 80% 85%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
+  max-width: 100%;
 }
 
 h1,
 h2,
 h4,
-h5,
 li {
   font-family: "Changa One", cursive;
   color: #425a37;
@@ -23,17 +25,23 @@ h3 {
   font-family: "Oxygen", sans-serif;
 }
 
+h5 {
+  font-family: "Oxygen", sans-serif;
+  color: #425a37;
+}
+
 p {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
 
 ul {
-  width: 100%;
+  width: 84%;
   margin: 0;
   padding: 6% 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
+  gap: 5%;
 }
 
 li {
@@ -46,7 +54,7 @@ li {
 #tagline {
   width: 80%;
   margin: 5% 10%;
-  text-align: center;
+  text-align: left;
 }
 
 #tagline {
@@ -94,6 +102,21 @@ span {
   margin: 10% auto;
 }
 
+footer {
+  padding: 5%;
+  text-align: center;
+}
+
+#social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  height: 15%;
+  width: 15%;
+}
+
 @media only screen and (min-width: 768px) {
   #about-text {
     display: flex;
@@ -103,4 +126,8 @@ span {
   #about-text > p {
     width: 45%;
   }
+
+  /* ul {
+    justify-content: flex-start;
+  } */
 }

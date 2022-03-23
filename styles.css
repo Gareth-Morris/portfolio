@@ -73,3 +73,34 @@ span {
 #work-section > h2 {
   color: white;
 }
+
+#about-section {
+  padding: 5%;
+}
+
+#about-text > p {
+  padding: 0 5%;
+}
+
+#work-section {
+  height: auto;
+  padding: 5%;
+}
+
+.img-thumbnail {
+  height: 150px;
+  width: 200px;
+  display: block;
+  margin: 10% auto;
+}
+
+@media only screen and (min-width: 768px) {
+  #about-text {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #about-text > p {
+    width: 45%;
+  }
+}

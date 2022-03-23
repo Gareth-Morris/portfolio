@@ -75,7 +75,16 @@ span {
 
 #work-section {
   background-color: #425a37;
-  height: 200px;
+  height: auto;
+}
+
+#work-thumbnails {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 5%;
+  margin: auto;
 }
 
 #work-section > h2 {
@@ -96,10 +105,11 @@ span {
 }
 
 .img-thumbnail {
-  height: 150px;
-  width: 200px;
+  height: auto;
+  width: 40%;
+  min-width: 150px;
   display: block;
-  margin: 10% auto;
+  margin: 5% 0;
 }
 
 footer {

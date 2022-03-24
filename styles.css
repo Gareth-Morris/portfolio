@@ -60,6 +60,10 @@ a {
     1px 1px 0 #fff;
 }
 
+a:hover {
+  color: #54d617;
+}
+
 #title,
 #tagline {
   width: 80%;
@@ -105,6 +109,14 @@ span {
   padding: 5%;
 }
 
+#nc-link {
+  color: #425a37;
+}
+
+#nc-link > a:hover {
+  color: #54d617;
+}
+
 #about-text > p {
   padding: 0 5%;
 }
@@ -120,6 +132,7 @@ span {
   min-width: 150px;
   display: block;
   margin: 5% 0;
+  box-shadow: 5px 5px 5px black;
 }
 
 footer {

@@ -3,7 +3,7 @@ body {
   height: 100%;
 }
 
-header {
+.header-section {
   background-image: url("./img/image1.jpeg");
   background-position: 80% 85%;
   background-repeat: no-repeat;
@@ -29,9 +29,13 @@ h3 {
   font-family: "Oxygen", sans-serif;
 }
 
-h5 {
+h5, h6 {
   font-family: "Oxygen", sans-serif;
   color: #425a37;
+}
+
+h6{
+  font-size: 12pt;
 }
 
 p {
@@ -73,6 +77,8 @@ a:hover {
 
 #tagline {
   color: white;
+  text-shadow: -2px -2px 0 #425a37, 2px -2px 0 #425a37, -2px 2px 0 #425a37,
+  2px 2px 0 #425a37;
 }
 
 span {
@@ -93,7 +99,7 @@ span {
 }
 
 #work-thumbnails {
-  width: 80%;
+  width: 93%;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -128,11 +134,23 @@ span {
 
 .img-thumbnail {
   height: auto;
-  width: 40%;
+  width: 45%;
   min-width: 150px;
   display: block;
   margin: 5% 0;
   box-shadow: 5px 5px 5px black;
+}
+
+.project-link-container{
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.projects-link{
+  color: #fff;
+  text-shadow: none;
+  font-size: 12pt;
 }
 
 footer {
@@ -151,7 +169,72 @@ footer {
   width: 12.5%;
 }
 
+.copyright{
+  text-align: center;
+}
+
+/* Projects Page */
+
+.projects-header{
+  background-color: #425a37;
+}
+
+.header-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-icn{
+  align-self: flex-start;
+  margin: 3% 0 0 10%;  
+}
+
+.home-icn-img{
+  height: 33%;
+  width: 33%;
+}
+
+.projects-page-title{
+  color:#fff;
+  text-shadow: none;
+  margin: 2% 0 5% 0;
+}
+
+.individual-project{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3% 0; 
+}
+
+.project-title{
+  text-align: center;
+}
+
+.project-text-box{
+  text-align: left;
+  width: 80%;
+}
+
+.projects-thumbnail{
+  width: 80%;
+  min-width: 150px;
+  margin: 5% 10%;
+  box-shadow: 5px 5px 5px black;
+}
+
 @media only screen and (min-width: 768px) {
+
+  h1{
+    font-size: 48pt;
+  }
+  
+  h2{
+    font-size: 36pt;
+  }
+
   #about-text {
     display: flex;
     justify-content: center;
@@ -184,7 +267,7 @@ footer {
 
 @media only screen and (min-width: 1024px) {
   h1 {
-    font-size: 36pt;
+    font-size: 56pt;
   }
 
   h2 {
@@ -203,6 +286,10 @@ footer {
     font-size: 16pt;
   }
 
+  .projects-link{
+    font-size: 16pt;
+  }
+
   #email-box > h5 {
     padding-top: 0;
   }
@@ -215,6 +302,17 @@ footer {
   #tagline {
     margin: 2.5% 10%;
   }
+  
+/* Projects Page */
+
+.main-projects-section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.individual-project{
+  width: 50%;
+}
 }
 
 @media only screen and (min-width: 1440px) {
@@ -225,4 +323,18 @@ footer {
   #email-box > h5 {
     padding-top: 2.5%;
   }
+
+  /* Projects Page */
+
+h1{
+  font-size: 64pt;
+}
+
+h2{
+  font-size: 36pt;
+}
+
+.individual-project{
+  width: 33%;
+}
 }

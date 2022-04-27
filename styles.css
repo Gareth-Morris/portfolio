@@ -3,7 +3,7 @@ body {
   height: 100%;
 }
 
-header {
+.header-section {
   background-image: url("./img/image1.jpeg");
   background-position: 80% 85%;
   background-repeat: no-repeat;
@@ -149,6 +149,45 @@ footer {
 .icon {
   height: 12.5%;
   width: 12.5%;
+}
+
+.projects-header{
+  height: 6rem;
+  background-color: #425a37;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-page-title{
+  color:#fff;
+  text-shadow: none;
+  margin: 0;
+}
+
+.projects-thumbnail{
+  height: auto;
+  width: 80%;
+  min-width: 150px;
+  display: block;
+  margin: 5% 10%;
+  box-shadow: 5px 5px 5px black;
+}
+
+.individual-project{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3% 0; 
+}
+
+.project-title{
+  text-align: center;
+}
+
+.project-text-box{
+  text-align: left;
+  width: 80%;
 }
 
 @media only screen and (min-width: 768px) {

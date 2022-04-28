@@ -4,7 +4,7 @@ body {
 }
 
 .header-section {
-  background-image: url("./img/image1.jpeg");
+  background-image: url("./img/hero-img.jpg");
   background-position: 80% 85%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,8 +77,8 @@ a:hover {
 
 #tagline {
   color: white;
-  text-shadow: -2px -2px 0 #425a37, 2px -2px 0 #425a37, -2px 2px 0 #425a37,
-  2px 2px 0 #425a37;
+  text-shadow: -1px -1px 0 #425a37, 1px -1px 0 #425a37, -1px 1px 0 #425a37,
+  1px 1px 0 #425a37;
 }
 
 span {
